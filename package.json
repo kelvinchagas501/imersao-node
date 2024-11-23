@@ -26,7 +26,8 @@
   "scripts": {
     "dev": "node --watch --env-file=.env server.js",
     "debug": "node --env-file=.env server.js",
-    "test": ""
+    "test": "",
+     "start": "node app.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
